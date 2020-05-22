@@ -1,5 +1,7 @@
 #-*- coding: utf-8 -*-
 import requests, sys, os
+import socket
+import socks
 def cleanme():
     cleeee='clear'
     os.system(cleeee)
@@ -16,10 +18,11 @@ def banner2():
  ███ ███ ██ █   ███ █ █ ███ ███ █ █ ███ █
        █
        █
+       
+[\x1b[1;38;5;156m + \x1b[0m] Tor is %s
+\x1b[1;38;5;108mStarting...\x1b[0m
 
- \x1b[1;38;5;108mStarting...\x1b[0m
-
-"""))
+"""%(setHdr)))
 def file_open(file_name):
     list = []
     file = open(file_name,"r")
@@ -53,7 +56,7 @@ def checker(vuln_list):
             elif value == False:
                 print("\x1b[1;38;5;189m[ \x1b[1;38;5;244m-\x1b[1;38;5;189m ]\x1b[0m ... \x1b[1;38;5;235m%s\x1b[0m"%(site))
         except requests.ConnectionError:
-            print("\x1b[1;38;5;189m[ \x1b[30;38;5;160m!\x1b[1;38;5;189m ]\x1b[0m Connection bloced your ip\x1b[1;38;5;235m%s\x1b[0m"%(site))
+            print("\x1b[1;38;5;189m[ \x1b[30;38;5;160m!\x1b[1;38;5;189m ]\x1b[0m Connection bloced your ip \x1b[1;38;5;235m%s\x1b[0m"%(site))
     print("{}".format("=" * 75))
 
 def banner():
@@ -76,7 +79,11 @@ def banner():
     http://site.com/in/file/uid/123?=123\x1b[0m
 #use https://github.com/OGcyb3r/GetHref to get links from specific site.. Mind your business
 
-\x1b[30;38;5;189m python3 sqliCh3ck3r.py\x1b[1;38;5;119m site.txt \x1b[0m
+\x1b[1;38;5;155m-t\x1b[0m\x1b[1;38;5;255m scan with tor connection\x1b[0m\x1b[1;38;5;255m
+\x1b[1;38;5;155m-x\x1b[0m\x1b[1;38;5;255m scan without tor connection\x1b[0m
+
+\x1b[30;38;5;189m python3 sqliCh3ck3r.py\x1b[1;38;5;117m site.txt \x1b[0m\x1b[1;38;5;155m-t\x1b[0m
+\x1b[30;38;5;189m python3 sqliCh3ck3r.py\x1b[1;38;5;117m site.txt \x1b[0m\x1b[1;38;5;152m-x\x1b[0m
 
 """))
 
@@ -84,6 +91,13 @@ def banner():
 
 if __name__ == "__main__":
     try:
+
+        if sys.argv[2] == '-t':
+        	setHdr="On"
+        	socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5,"127.0.0.1",9050,True)
+        	socket.socket = socks.socksocket
+        elif sys.argv[2] == '-x':
+            setHdr="Off"
         banner2()
         target_file = file_open(sys.argv[1])
         checker(target_file)
