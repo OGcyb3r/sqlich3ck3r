@@ -1,2 +1,2 @@
 # sqlich3ck3r
-checking sites vuln using error list
+[ Title ] Check if site has sql injection errors.. 
