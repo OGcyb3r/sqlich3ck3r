@@ -6,4 +6,4 @@ SQLi4LazyAssDetection
 #upgraded tor proxy
  
  
-<a href="https://asciinema.org/a/dQDAow1lHGTCAS0liMyVIxnwL" target="_blank"><img src="https://asciinema.org/a/dQDAow1lHGTCAS0liMyVIxnwL.svg" /></a>
+<a href="https://asciinema.org/a/dQDAow1lHGTCAS0liMyVIxnwL?autoplay=1" target="_blank"><img src="https://asciinema.org/a/dQDAow1lHGTCAS0liMyVIxnwL.svg" /></a>
