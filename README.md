@@ -3,7 +3,8 @@
 
 SQLi4LazyAssDetection 
 
-![sqlch33ck3r](https://user-images.githubusercontent.com/48766198/82634532-957dae00-9c06-11ea-9643-651e95ac828d.png)
+#upgraded tor proxy
 
-![sqlich3ck3r](https://user-images.githubusercontent.com/48766198/82634534-96164480-9c06-11ea-892c-b978b82370b9.png)
-
+[![asciicast](https://asciinema.org/a/dQDAow1lHGTCAS0liMyVIxnwL.svg)](https://asciinema.org/a/dQDAow1lHGTCAS0liMyVIxnwL)
+ 
+ 
