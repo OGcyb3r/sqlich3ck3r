@@ -1,0 +1,30 @@
+You have an error in your SQL syntax
+You have an 
+in your SQL syntax
+SQL syntax
+error in your SQL syntax
+mysql_numrows()
+Input String was not in a correct format
+mysql_fetch
+num_rows
+Microsoft JET Database
+on line 
+Error Executing Database Query
+Unclosed quotation mark
+Error Occured While Processing Request
+Server Error
+QueryException
+SQLSTATE
+QueryCallback
+PDOException
+General error:
+Microsoft OLE DB Provider for ODBC Drivers Error
+Invalid Querystring
+VBScript Runtime
+Syntax error
+80040e14
+GetArray()
+FetchRows()
+executeQuery
+mysql_fetch_array()
+MySqli
