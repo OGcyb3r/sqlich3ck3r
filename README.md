@@ -5,6 +5,6 @@ SQLi4LazyAssDetection
 
 #upgraded tor proxy
 
-[![asciicast](https://asciinema.org/a/dQDAow1lHGTCAS0liMyVIxnwL.svg)](https://raw.githubusercontent.com/OGcyb3r/sqlich3ck3r/master/a.cast)
+[![asciicast](https://asciinema.org/a/dQDAow1lHGTCAS0liMyVIxnwL.svg)](https://asciinema.org/a/dQDAow1lHGTCAS0liMyVIxnwL?t=1)
  
  
